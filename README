@@ -1,10 +1,17 @@
 ようこそ bluepapa32's Maven Repository へ！！
-当リポジトリのライブラリを利用する際は お手数ですが
+
+当リポジトリのプラグインを利用する際は
 
 -----------------------------------------------------------
- repositories {
-     maven { url 'http://bluepapa32.github.io/maven/' }
+
+ buildscript {
+
+     repositories {
+         maven { url 'http://bluepapa32.github.io/maven/' }
+     }
+
  }
+
 -----------------------------------------------------------
 
 を build.gradle に追加してください。
