@@ -3,7 +3,7 @@
 
 -----------------------------------------------------------
  repositories {
-     mavenRepo urls: 'http://bluepapa32.github.com/maven/'
+     maven { url 'http://bluepapa32.github.io/maven/' }
  }
 -----------------------------------------------------------
 
