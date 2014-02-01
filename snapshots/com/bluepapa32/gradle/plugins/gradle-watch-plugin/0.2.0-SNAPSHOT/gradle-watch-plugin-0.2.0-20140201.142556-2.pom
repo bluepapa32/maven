@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bluepapa32.gradle.plugins</groupId>
+  <artifactId>gradle-watch-plugin</artifactId>
+  <version>0.2.0-SNAPSHOT</version>
+  <name>Gradle Watch Plugin</name>
+  <description>Gradle Watch Plugin</description>
+  <url>https://github.com/bluepapa32/gradle-watch-plugin</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bluepapa32</id>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:bluepapa32/gradle-watch-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:bluepapa32/gradle-watch-plugin.git</developerConnection>
+    <url>git@github.com:bluepapa32/gradle-watch-plugin.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.spockframework</groupId>
+      <artifactId>spock-core</artifactId>
+      <version>0.7-groovy-1.8</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
