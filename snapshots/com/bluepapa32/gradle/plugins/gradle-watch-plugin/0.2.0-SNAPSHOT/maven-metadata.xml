@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.bluepapa32.gradle.plugins</groupId>
+  <artifactId>gradle-watch-plugin</artifactId>
+  <version>0.2.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20140201.090848</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20140201090848</lastUpdated>
+  </versioning>
+</metadata>
